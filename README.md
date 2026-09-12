@@ -51,3 +51,24 @@ This project focuses on the following business questions:
 - Overall on-time delivery performance is approximately 91.89%, but performance varies across customer states, showing that national averages can hide regional operational differences.
 
 - Total freight spend and average freight cost per order represent different business perspectives: high total spend can be driven by volume, while high average freight per order can indicate structural logistics cost issues.
+- ## Recommendations
+
+- Prioritize root-cause analysis in high-volume customer states with below-average on-time delivery performance.
+
+- Evaluate freight efficiency using average freight cost per order, not only total freight spend, to identify structurally expensive regions.
+
+- Combine delivery performance, order volume, freight efficiency and customer review scores when prioritizing regional operational improvements.
+
+- Monitor high-revenue product categories more closely from a service-level and availability perspective, while using additional cost and margin data before making profitability-based decisions.
+- ## Data Quality & Validation
+
+Selected Power BI KPIs were validated against SQL calculations to confirm that the reporting logic was consistent across both tools.
+
+During this validation, I identified 2,965 delivery-date records that were stored as empty strings rather than SQL NULL values. These records were initially included incorrectly in the SQL on-time delivery analysis.
+
+After updating the SQL logic to exclude both NULL and empty-string delivery dates, the SQL result aligned with Power BI:
+
+- Average Review Score - On Time: 4.29
+- Average Review Score - Late: 2.57
+
+This validation highlighted the importance of handling blank values consistently and reconciling analytical results across different tools.
