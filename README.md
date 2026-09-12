@@ -79,3 +79,5 @@ This validation highlighted the importance of handling blank values consistently
 
 ### Delivery & Freight Analysis
 ![Delivery & Freight Analysis](screenshots/Delivery_Freight_Analysis.png)
+
+Power BI source file available upon request
