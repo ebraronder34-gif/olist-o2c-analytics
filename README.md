@@ -148,3 +148,16 @@ After correcting the SQL filtering logic, the SQL and Power BI results aligned:
 - Late Average Review Score: 2.57
 
 This exercise demonstrated the importance of validating reporting logic and handling missing values consistently across analytical tools.
+
+## Repository Structure
+
+    olist-o2c-analytics/
+    ├── README.md
+    ├── screenshots/
+    │   ├── o2c_overview.png
+    │   └── delivery_freight_analysis.png
+    └── sql/
+        ├── 01_data_quality_checks.sql
+        ├── 02_kpi_reconciliation.sql
+        ├── 03_freight_analysis.sql
+        └── 04_delivery_review_analysis.sql
