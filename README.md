@@ -161,3 +161,18 @@ This exercise demonstrated the importance of validating reporting logic and hand
         ├── 02_kpi_reconciliation.sql
         ├── 03_freight_analysis.sql
         └── 04_delivery_review_analysis.sql
+
+## Project Takeaways
+
+This project helped me strengthen my understanding of:
+
+- Power BI data modeling and relationship design
+- DAX measures and filter context
+- Order-level vs item-level data grain
+- Date dimensions and time-based filtering
+- Interactive dashboard design
+- Delivery and freight performance analysis
+- SQL joins, aggregation, CASE logic and HAVING
+- Data quality validation
+- KPI reconciliation between SQL and Power BI
+- Translating analytical findings into business insights and recommendations
