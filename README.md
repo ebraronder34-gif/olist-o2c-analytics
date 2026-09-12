@@ -75,7 +75,7 @@ This validation highlighted the importance of handling blank values consistently
 ## Dashboard
 
 ### O2C Overview
-![O2C Overview](screenshots/o2c_overview.png)
+![O2C Overview](screenshots/O2C_overview.png)
 
 ### Delivery & Freight Analysis
-![Delivery & Freight Analysis](screenshots/delivery_freight_analysis.png)
+![Delivery & Freight Analysis](screenshots/Delivery_Freight_Analysis.png)
