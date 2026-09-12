@@ -72,3 +72,10 @@ After updating the SQL logic to exclude both NULL and empty-string delivery date
 - Average Review Score - Late: 2.57
 
 This validation highlighted the importance of handling blank values consistently and reconciling analytical results across different tools.
+## Dashboard
+
+### O2C Overview
+![O2C Overview](screenshots/o2c_overview.png)
+
+### Delivery & Freight Analysis
+![Delivery & Freight Analysis](screenshots/delivery_freight_analysis.png)
