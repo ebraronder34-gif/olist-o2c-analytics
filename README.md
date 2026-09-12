@@ -102,3 +102,26 @@ A separate Date Dimension (DimDate) was created in Power BI to support time-base
 
 Raw dataset files are not included in this repository and can be downloaded from the original Kaggle source.
 
+## Data Model
+
+The Power BI model connects transactional and dimension-like tables through shared business keys.
+
+Key relationships include:
+
+- Customers → Orders
+- Orders → Order Items
+- Products → Order Items
+- Sellers → Order Items
+- Orders → Reviews
+- DimDate → Orders
+
+The model primarily uses single-direction filtering to maintain predictable filter propagation and avoid unnecessary ambiguity.
+
+Different levels of data granularity were also considered during the analysis:
+
+- Orders: one row per order
+- Order Items: one row per item within an order
+- Customers: customer information
+- Reviews: review records linked to orders
+
+Understanding the difference between order-level and item-level grain was particularly important when calculating metrics such as Total Revenue and Average Freight per Order.
