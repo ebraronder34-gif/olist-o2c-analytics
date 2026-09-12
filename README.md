@@ -81,3 +81,24 @@ This validation highlighted the importance of handling blank values consistently
 ![Delivery & Freight Analysis](screenshots/Delivery_Freight_Analysis.png)
 
 Power BI source file available upon request
+
+## Data Source
+
+This project uses the Brazilian E-Commerce Public Dataset by Olist, available on Kaggle.
+
+Dataset:
+https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
+
+The main tables used in the analysis are:
+
+- olist_orders_dataset - order status, purchase and delivery dates
+- olist_order_items_dataset - product, seller, price and freight information
+- olist_customers_dataset - customer and customer-state information
+- olist_order_reviews_dataset - customer review scores
+- olist_products_dataset - product information
+- olist_sellers_dataset - seller information
+
+A separate Date Dimension (DimDate) was created in Power BI to support time-based analysis.
+
+Raw dataset files are not included in this repository and can be downloaded from the original Kaggle source.
+
