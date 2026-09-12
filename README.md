@@ -18,3 +18,36 @@ This project focuses on the following business questions:
 - Which customer states have the highest freight cost per order?
 - How does delivery performance relate to customer review scores?
 - Which regions should be prioritized when considering delivery performance, order volume and freight efficiency together?
+
+- ## Tools & Skills Used
+
+- Power BI
+- Power Query
+- DAX
+- SQL
+- Data Modeling
+- Data Validation
+- KPI Reconciliation
+- Business Analysis
+
+- ## Key KPIs
+
+- Total Revenue: ~13.59M
+- Total Orders: ~99.9K
+- Total Customers: ~96K
+- On-Time Delivery: ~91.89%
+- Average Review Score: ~4.09
+- Average Review Score - On Time: 4.29
+- Average Review Score - Late: 2.57
+
+- ## Key Insights
+
+- On-time deliveries have an average review score of 4.29, while late deliveries average 2.57, showing a strong association between delivery reliability and customer satisfaction.
+
+- Freight efficiency varies significantly by customer state. Roraima (RR) has the highest average freight cost per order overall at approximately 48.59.
+
+- When a minimum threshold of 100 orders is applied to reduce the effect of small sample sizes, Paraíba (PB) becomes the highest-cost state at approximately 48.35 per order.
+
+- Overall on-time delivery performance is approximately 91.89%, but performance varies across customer states, showing that national averages can hide regional operational differences.
+
+- Total freight spend and average freight cost per order represent different business perspectives: high total spend can be driven by volume, while high average freight per order can indicate structural logistics cost issues.
