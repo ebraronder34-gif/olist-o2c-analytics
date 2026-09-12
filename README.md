@@ -125,3 +125,26 @@ Different levels of data granularity were also considered during the analysis:
 - Reviews: review records linked to orders
 
 Understanding the difference between order-level and item-level grain was particularly important when calculating metrics such as Total Revenue and Average Freight per Order.
+
+## SQL Analysis
+
+SQL was used alongside Power BI to validate selected KPIs and reproduce business analyses.
+
+The SQL analysis includes:
+
+- Data quality checks
+- KPI reconciliation
+- Freight analysis by customer state
+- Delivery performance vs customer review analysis
+- NULL and empty-string validation
+
+During reconciliation, the SQL result for the On-Time Average Review Score initially differed from Power BI.
+
+Further investigation identified 2,965 delivery-date records stored as empty strings rather than SQL NULL values.
+
+After correcting the SQL filtering logic, the SQL and Power BI results aligned:
+
+- On-Time Average Review Score: 4.29
+- Late Average Review Score: 2.57
+
+This exercise demonstrated the importance of validating reporting logic and handling missing values consistently across analytical tools.
